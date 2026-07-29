@@ -1,4 +1,5 @@
-exclude_mail = true
+include_mail = false
+exclude_path = ["node_modules", "dist"]
 exclude = [
   '^https://github\.com/attractorhq/rag-quality-workshop/(discussions|security/advisories/new)$'
 ]
