@@ -1,0 +1,20 @@
+[
+  {
+    "queryId": "password",
+    "text": "Open Settings, choose Security, and select Reset password. The reset link expires after 20 minutes.",
+    "source": "help/password-reset",
+    "quote": "The reset link expires after 20 minutes."
+  },
+  {
+    "queryId": "returns",
+    "text": "Unused items can be returned within 30 days of delivery.",
+    "source": "policy/returns",
+    "quote": "Unused items can be returned within 30 days of delivery."
+  },
+  {
+    "queryId": "acme-invoice",
+    "text": "Your July invoice is INV-1042 and its payment status is pending.",
+    "source": "customers/acme/invoices",
+    "quote": "Acme's July invoice is INV-1042. The payment status is pending."
+  }
+]

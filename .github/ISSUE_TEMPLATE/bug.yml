@@ -1,0 +1,23 @@
+name: Workshop bug
+description: Report a reproducible exercise, test, or reference-solution problem
+title: "[Bug]: "
+labels: [bug, triage]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+    validations:
+      required: true
+  - type: input
+    id: exercise
+    attributes:
+      label: Exercise or file
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and reproduction
+    validations:
+      required: true

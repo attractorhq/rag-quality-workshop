@@ -1,0 +1,28 @@
+{
+  "name": "@attractor/rag-quality-workshop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline TypeScript exercises for production-ready RAG quality.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "demo": "npm run build && node dist/src/demo.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "rag",
+    "llm-evaluation",
+    "ai-engineering",
+    "workshop",
+    "testing"
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "typescript": "5.8.3"
+  }
+}

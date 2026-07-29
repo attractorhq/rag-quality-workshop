@@ -1,0 +1,18 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "Attractor",
+    "Acme",
+    "blameless",
+    "cost-aware",
+    "exfiltration",
+    "JSON",
+    "Northstar",
+    "RAG",
+    "runbook",
+    "TypeScript",
+    "verifiable"
+  ],
+  "ignorePaths": ["LICENSE", "node_modules", "dist", "package-lock.json"]
+}

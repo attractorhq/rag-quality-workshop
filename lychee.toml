@@ -1,0 +1,4 @@
+exclude_mail = true
+exclude = [
+  '^https://github\.com/attractorhq/rag-quality-workshop/(discussions|security/advisories/new)$'
+]
